@@ -9,7 +9,7 @@ cd build
 cmake .. -DENABLE_TEST=ON
 make
 
-# Test
+**Test**
 ka: 54 68 61 74 73 20 6D 79 20 4B 75 6E 67 20 46 75
 
 Plaintext_Alice : 54 77 6F 20 4F 6E 65 20 4E 69 6E 65 20 54 77 6F

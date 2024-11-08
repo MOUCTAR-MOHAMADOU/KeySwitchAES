@@ -1,8 +1,7 @@
 # key switching AES
 homomorphic of evaluation of AES based on circuit bootstrapping mode.
 
-# Setup
-## Sanity Check
+## Setup
 Following Code is used to check sanity of the TFHEpp library, and it measures how much time homomorphic NAND takes on your machine with TFHEpp. 
 ```
 git clone https://github.com/prajyotgupta/tfhepp
@@ -12,7 +11,8 @@ cd build
 cmake .. -DENABLE_TEST=ON
 make.
 
-# Test
+```
+## Test
 
 ka: 54 68 61 74 73 20 6D 79 20 4B 75 6E 67 20 46 75
 

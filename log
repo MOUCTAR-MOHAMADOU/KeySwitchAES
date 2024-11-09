@@ -1,0 +1,170 @@
+Exécution de file_gen...
+The SecretKey has been serialized.
+The cloud key ek has been serialized.
+Entrez le message chiffré en hexadécimal : 29 C3 50 5F 57 14 20 F6 40 22 99 B3 1A 02 D7 3A
+Entrez la clé Alice ka en hexadécimal : 54 68 61 74 73 20 6D 79 20 4B 75 6E 67 20 46 75
+Entrez la clé Bob kb en hexadécimal :  2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+ .........RoundKey........
+roundkey 32 
+roundkey fa 
+ rounds ka: 11
+ rounds kb: 11
+The ka key has been serialized.
+The kb key has been serialized.
+The ciphertext has been serialized.
+The consByte has been serialized.
+ ==================  MakeTable=================
+The Sbox  has been serialized.
+The iSbox  has been serialized.
+The mul9  has been serialized.
+The mul11  has been serialized.
+The mul13  has been serialized.
+The mul14  has been serialized.
+
+Exécution de k_switch...
+cloud a été désérialisé.
+ciphertext a été désérialisé.
+ ================== MakeTable =================
+iSbox.data a été désérialisé.
+mul9.data a été désérialisé.
+mul11.data a été désérialisé.
+mul13.data a été désérialisé.
+mul14.data a été désérialisé.
+ka a été désérialisé.
+================ Invere round: 1==================
+ Inverse Circuit bootstrapping(16 * 8 times) one round costs: 19847ms
+ iSbox lookup table one round costs: 4476us
+Inverse Identity keyswitch(16 * 8 times) one round costs: 301ms
+ Mult Circuit bootstrapping(16 * 8 times) one round costs: 19596ms
+ Mult lookup table one round costs: 19357us
+Mult Identity keyswitch(16 * 8 times) one round costs: 1309ms
+================ Invere round: 2==================
+ Inverse Circuit bootstrapping(16 * 8 times) one round costs: 19767ms
+ iSbox lookup table one round costs: 4122us
+Inverse Identity keyswitch(16 * 8 times) one round costs: 285ms
+ Mult Circuit bootstrapping(16 * 8 times) one round costs: 19560ms
+ Mult lookup table one round costs: 19108us
+Mult Identity keyswitch(16 * 8 times) one round costs: 1359ms
+================ Invere round: 3==================
+ Inverse Circuit bootstrapping(16 * 8 times) one round costs: 19631ms
+ iSbox lookup table one round costs: 4130us
+Inverse Identity keyswitch(16 * 8 times) one round costs: 282ms
+ Mult Circuit bootstrapping(16 * 8 times) one round costs: 19591ms
+ Mult lookup table one round costs: 22557us
+Mult Identity keyswitch(16 * 8 times) one round costs: 1331ms
+================ Invere round: 4==================
+ Inverse Circuit bootstrapping(16 * 8 times) one round costs: 19592ms
+ iSbox lookup table one round costs: 4169us
+Inverse Identity keyswitch(16 * 8 times) one round costs: 287ms
+ Mult Circuit bootstrapping(16 * 8 times) one round costs: 19587ms
+ Mult lookup table one round costs: 21243us
+Mult Identity keyswitch(16 * 8 times) one round costs: 1337ms
+================ Invere round: 5==================
+ Inverse Circuit bootstrapping(16 * 8 times) one round costs: 19752ms
+ iSbox lookup table one round costs: 4194us
+Inverse Identity keyswitch(16 * 8 times) one round costs: 285ms
+ Mult Circuit bootstrapping(16 * 8 times) one round costs: 20605ms
+ Mult lookup table one round costs: 19488us
+Mult Identity keyswitch(16 * 8 times) one round costs: 1174ms
+================ Invere round: 6==================
+ Inverse Circuit bootstrapping(16 * 8 times) one round costs: 20063ms
+ iSbox lookup table one round costs: 4113us
+Inverse Identity keyswitch(16 * 8 times) one round costs: 295ms
+ Mult Circuit bootstrapping(16 * 8 times) one round costs: 19643ms
+ Mult lookup table one round costs: 20248us
+Mult Identity keyswitch(16 * 8 times) one round costs: 1314ms
+================ Invere round: 7==================
+ Inverse Circuit bootstrapping(16 * 8 times) one round costs: 19603ms
+ iSbox lookup table one round costs: 4134us
+Inverse Identity keyswitch(16 * 8 times) one round costs: 282ms
+ Mult Circuit bootstrapping(16 * 8 times) one round costs: 19628ms
+ Mult lookup table one round costs: 23399us
+Mult Identity keyswitch(16 * 8 times) one round costs: 1334ms
+================ Invere round: 8==================
+ Inverse Circuit bootstrapping(16 * 8 times) one round costs: 19685ms
+ iSbox lookup table one round costs: 4219us
+Inverse Identity keyswitch(16 * 8 times) one round costs: 277ms
+ Mult Circuit bootstrapping(16 * 8 times) one round costs: 19620ms
+ Mult lookup table one round costs: 27473us
+Mult Identity keyswitch(16 * 8 times) one round costs: 1332ms
+================ Invere round: 9==================
+ Inverse Circuit bootstrapping(16 * 8 times) one round costs: 19662ms
+ iSbox lookup table one round costs: 4252us
+Inverse Identity keyswitch(16 * 8 times) one round costs: 277ms
+ Mult Circuit bootstrapping(16 * 8 times) one round costs: 19618ms
+ Mult lookup table one round costs: 19580us
+Mult Identity keyswitch(16 * 8 times) one round costs: 1311ms
+============= test last round ============
+ Inverse Circuit bootstrapping(16 * 8 times) one round costs: 19628ms
+ iSbox lookup table one round costs: 4102us
+Inverse Identity keyswitch(16 * 8 times) one round costs: 277ms
+The plaintext  has been serialized.
+Inverse Circuitbootstrapping costs: 374678ms,  account for 96.1164%
+Inverse Lookup table costs: 234364us , account for 0.0601215%
+Inverse Idks costs: 14649ms ,  account for 3.75792%
+Decrypt homo AES using Circuitbootstrapping costs: 389817ms
+kb a été désérialisé.
+Sbox a été désérialisé.
+consByte a été désérialisé.
+================round: 1==================
+ Circuit bootstrapping(16 * 8 times) one round costs: 19560ms
+ Sbox lookup table one round costs: 4067us
+ Identity keyswitch(16 * 8 times) one round costs: 319ms
+================round: 2==================
+ Circuit bootstrapping(16 * 8 times) one round costs: 19595ms
+ Sbox lookup table one round costs: 4114us
+ Identity keyswitch(16 * 8 times) one round costs: 279ms
+================round: 3==================
+ Circuit bootstrapping(16 * 8 times) one round costs: 19576ms
+ Sbox lookup table one round costs: 4212us
+ Identity keyswitch(16 * 8 times) one round costs: 289ms
+================round: 4==================
+ Circuit bootstrapping(16 * 8 times) one round costs: 19563ms
+ Sbox lookup table one round costs: 4104us
+ Identity keyswitch(16 * 8 times) one round costs: 295ms
+================round: 5==================
+ Circuit bootstrapping(16 * 8 times) one round costs: 19648ms
+ Sbox lookup table one round costs: 4232us
+ Identity keyswitch(16 * 8 times) one round costs: 282ms
+================round: 6==================
+ Circuit bootstrapping(16 * 8 times) one round costs: 19567ms
+ Sbox lookup table one round costs: 4081us
+ Identity keyswitch(16 * 8 times) one round costs: 291ms
+================round: 7==================
+ Circuit bootstrapping(16 * 8 times) one round costs: 19554ms
+ Sbox lookup table one round costs: 4165us
+ Identity keyswitch(16 * 8 times) one round costs: 276ms
+================round: 8==================
+ Circuit bootstrapping(16 * 8 times) one round costs: 19592ms
+ Sbox lookup table one round costs: 4206us
+ Identity keyswitch(16 * 8 times) one round costs: 345ms
+================round: 9==================
+ Circuit bootstrapping(16 * 8 times) one round costs: 19572ms
+ Sbox lookup table one round costs: 4220us
+ Identity keyswitch(16 * 8 times) one round costs: 285ms
+================ round 10 ==================
+ Circuit bootstrapping(16 * 8 times) one round costs: 19559ms
+ Sbox lookup table one round costs: 4084us
+ Identity keyswitch(16 * 8 times) one round costs: 280ms
+
+The enc  has been serialized.
+Lookup table SubBytes costs: 41485us , account for 0.020869%
+Circuitbootstrapping costs: 195786ms,  account for 98.4898%
+Idks costs: 2941ms ,  account for 1.47947%
+Encrypt homo AES using Circuitbootstrapping costs: 198788ms
+
+
+key switching AES using Circuitbootstrapping costs: 588628ms
+
+Exécution de verify...
+secret a été désérialisé.
+The dec has been serialized.
+The enc key has been serialized.
+
+============= verification ============
+
+After ka Decrypt ciphertext : 
+54 77 6f 20 4f 6e 65 20 4e 69 6e 65 20 54 77 6f 
+After kb Encrypt plaintext : 
+d3 78 37 a2 47 90 c5 f0 80 f0 42 dc c8 a4 a1 5a 
+                                                

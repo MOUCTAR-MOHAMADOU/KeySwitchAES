@@ -1,5 +1,5 @@
 ##cmake_minimum_required(VERSION 3.10)
-##project(AESHomo)
+##projecthomo)
 #####add_library(utils STATIC  utils.cpp)
 
 add_executable(m  main.cpp utils.cpp file_genA.cpp  file_genB.cpp  k_switch.cpp  verify.cpp)
